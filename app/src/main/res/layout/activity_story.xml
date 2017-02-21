@@ -31,4 +31,26 @@
         android:paddingTop="15dp"
         android:lineSpacingMultiplier="1.2" />
 
+    <Button
+        android:text="Continue home to Earth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/choiceButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/choiceButton1"
+        android:background="@android:color/white"
+        android:textColor="#FF3A8AEC" />
+
+    <Button
+        android:text="Stop and investigate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choiceButton2"
+        android:background="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FF3A8AEC" />
+
 </RelativeLayout>

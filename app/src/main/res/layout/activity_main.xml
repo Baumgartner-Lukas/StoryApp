@@ -27,7 +27,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/startButton"
-        android:elevation="0dp" />
+        android:elevation="0dp"
+        android:backgroundTint="@android:color/white"
+        android:textColorHint="#FF3A8AEC" />
 
     <EditText
         android:layout_width="match_parent"
