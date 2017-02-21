@@ -9,7 +9,7 @@ public class Page {
     private String mText;
     private Choice mChoice1;
     private Choice mChoice2;
-    private Boolean mIsFinal = false;
+    private boolean mIsFinal = false;
 
     public Page(int imageId, String text, Choice choice1, Choice choice2){
         mImageId = imageId;
@@ -26,12 +26,8 @@ public class Page {
         mIsFinal = true;
     }
 
-    public Boolean getFinal() {
+    public boolean isFinal() {
         return mIsFinal;
-    }
-
-    public void setFinal(Boolean aFinal) {
-        mIsFinal = aFinal;
     }
 
     public int getImageId() {
